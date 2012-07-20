@@ -54,7 +54,6 @@
 		B6A53FAB15A47AFF00B71743 /* iphone_land1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A53FAA15A47AFF00B71743 /* iphone_land1.png */; };
 		B6A53FAD15A47B1700B71743 /* ipad_land3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A53FAC15A47B1700B71743 /* ipad_land3.png */; };
 		B6A5E8F915A2D0B700C3ACEB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5E8F815A2D0B700C3ACEB /* MBProgressHUD.m */; };
-		B6A5E90515A2D78100C3ACEB /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5E90415A2D78100C3ACEB /* XMLReader.m */; };
 		B6A5E90915A2F80600C3ACEB /* iphone_land3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A5E90815A2F80600C3ACEB /* iphone_land3.png */; };
 		B6A5E9C715918E18000C453E /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5E9C515918E18000C453E /* RegistrationView.m */; };
 		B6A5E9C815918E18000C453E /* RegistrationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A5E9C615918E18000C453E /* RegistrationView.xib */; };
@@ -132,8 +131,6 @@
 		B6A53FAC15A47B1700B71743 /* ipad_land3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_land3.png; sourceTree = "<group>"; };
 		B6A5E8F715A2D0B700C3ACEB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		B6A5E8F815A2D0B700C3ACEB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		B6A5E90315A2D78100C3ACEB /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
-		B6A5E90415A2D78100C3ACEB /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
 		B6A5E90815A2F80600C3ACEB /* iphone_land3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_land3.png; sourceTree = "<group>"; };
 		B6A5E9C415918E18000C453E /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationView.h; path = /Users/innoppl/Desktop/iLE/iLE/RegistrationView.h; sourceTree = "<absolute>"; };
 		B6A5E9C515918E18000C453E /* RegistrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationView.m; path = /Users/innoppl/Desktop/iLE/iLE/RegistrationView.m; sourceTree = "<absolute>"; };
@@ -214,8 +211,6 @@
 		B66AB3C0158F69EE004CE9A9 /* iLE */ = {
 			isa = PBXGroup;
 			children = (
-				B6A5E90315A2D78100C3ACEB /* XMLReader.h */,
-				B6A5E90415A2D78100C3ACEB /* XMLReader.m */,
 				B66AB3C9158F69EE004CE9A9 /* iLEAppDelegate.h */,
 				B66AB3CA158F69EE004CE9A9 /* iLEAppDelegate.m */,
 				B66AB3CC158F69EE004CE9A9 /* MainWindow.xib */,
@@ -479,7 +474,6 @@
 				B6848D1C15A1ED35000B15EE /* ASINetworkQueue.m in Sources */,
 				B6848D1D15A1ED35000B15EE /* Reachability.m in Sources */,
 				B6A5E8F915A2D0B700C3ACEB /* MBProgressHUD.m in Sources */,
-				B6A5E90515A2D78100C3ACEB /* XMLReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

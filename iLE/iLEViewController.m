@@ -132,14 +132,14 @@ UIButton  *forgotbtn;
     NSUserDefaults *LoginInfo=[NSUserDefaults standardUserDefaults];
    // NSLog(@"*******)%@  *********%@",[LoginInfo objectForKey:@"Email"],[LoginInfo objectForKey:@"Password"] );
 
- /*  if ([LoginInfo objectForKey:@"Password"]!=nil) {
+   if ([LoginInfo objectForKey:@"Password"]!=nil) {
         UITextField *email=(UITextField*)[logimage_bg viewWithTag:1];
         UITextField *pass=(UITextField*)[logimage_bg viewWithTag:2];
         email.text=[LoginInfo objectForKey:@"Email"];
         pass.text=[LoginInfo objectForKey:@"Password"];
        // NSLog(@"*******)%@  *********%@",[LoginInfo objectForKey:@"Email"],[LoginInfo objectForKey:@"Password"] );
         [self performSelector:@selector(SignInWeb)];
-    }*/
+    }
     
     [super viewDidLoad];
 
